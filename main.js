@@ -38,11 +38,6 @@ Object.defineProperties(o, {
 	}
 });
 
-o.x = 3;
-console.log(o.r);
-console.log(Object.getOwnPropertyDescriptor(o, "x"));
-console.log(Object.keys(o));
-console.log(o.propertyIsEnumerable("x"));
 
 var obj = {};
 Object.seal(obj);
